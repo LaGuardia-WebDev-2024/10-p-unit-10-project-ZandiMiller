@@ -1,46 +1,25 @@
-body {
-  background-color: black;
+
+html {
+  background-size: 100px 100px;
+  background-position: 0 0, 25px 25px, 50px 50px;
   text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  margin-top: 10%;
-  font-family: Georgia, serif;
 }
 
-html{
-  height: 100%;
-  width: 100%;
+/* Background Pattern 
+Taken From https: http://thepatternlibrary.com/ */
+
+body{
+  background-image: url("https://st.depositphotos.com/1006269/54802/i/450/depositphotos_548021436-stock-photo-night-starry-sky-bright-blue.jpg");
 }
 
+h1,
+h2 {
+  background-color: #DE3163 ;
+  color: white;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 5px;
+}
 #myCanvas {
-  border: 1px solid black;
-}
-
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding-bottom: 20px;
-}
-
-.pic{
-  height: 600px;
-  width: 400px;
-  object-fit: cover;
-  border: 1px solid black;
-}
-
-h2{
-  color: black;
-}
-
-#start{
-  text-align: left;
-}
-
-#end{
-  text-align: right;
+  border: 1px solid  #DE3163;
 }
